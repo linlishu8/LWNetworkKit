@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (5.10.2)
+  - LWNetworkKit (0.2.0):
+    - Alamofire (~> 5.8)
+
+DEPENDENCIES:
+  - LWNetworkKit (from `../..`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  LWNetworkKit:
+    :path: "../.."
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  LWNetworkKit: 2a701743f312899307a9417cb8931e7d9600c8b9
+
+PODFILE CHECKSUM: 377d9738d913a554e11167cf304c91265937e05d
+
+COCOAPODS: 1.16.2

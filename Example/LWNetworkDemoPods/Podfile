@@ -1,0 +1,7 @@
+platform :ios, '14.0'
+use_frameworks!
+
+target 'LWNetworkDemoPods' do
+  project 'LWNetworkDemoPods.xcodeproj'
+  pod 'LWNetworkKit', :path => '../..'
+end

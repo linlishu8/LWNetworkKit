@@ -1,0 +1,6 @@
+framework module LWNetworkKit {
+  umbrella header "LWNetworkKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

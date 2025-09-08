@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FEC835F2E6DDA87009346D4 /* DemoHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC83452E6DDA87009346D4 /* DemoHomeView.swift */; };
+		1FEC83602E6DDA87009346D4 /* LWDemoURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC834A2E6DDA87009346D4 /* LWDemoURLProtocol.swift */; };
+		1FEC83612E6DDA87009346D4 /* OfflineQueueDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC834F2E6DDA87009346D4 /* OfflineQueueDemo.swift */; };
+		1FEC83622E6DDA87009346D4 /* DownloadETagDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC83472E6DDA87009346D4 /* DownloadETagDemo.swift */; };
+		1FEC83632E6DDA87009346D4 /* LWStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC834C2E6DDA87009346D4 /* LWStyles.swift */; };
+		1FEC83642E6DDA87009346D4 /* SSEDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC835C2E6DDA87009346D4 /* SSEDemo.swift */; };
+		1FEC83652E6DDA87009346D4 /* ReachabilityDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC83512E6DDA87009346D4 /* ReachabilityDemo.swift */; };
+		1FEC83662E6DDA87009346D4 /* BackgroundTransferDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC833F2E6DDA87009346D4 /* BackgroundTransferDemo.swift */; };
+		1FEC83672E6DDA87009346D4 /* WebSocketDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC835D2E6DDA87009346D4 /* WebSocketDemo.swift */; };
+		1FEC83682E6DDA87009346D4 /* LWDemoURLProtocolState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC834B2E6DDA87009346D4 /* LWDemoURLProtocolState.swift */; };
+		1FEC83692E6DDA87009346D4 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC833E2E6DDA87009346D4 /* App.swift */; };
+		1FEC836A2E6DDA87009346D4 /* ContractDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC83432E6DDA87009346D4 /* ContractDemo.swift */; };
+		1FEC836B2E6DDA87009346D4 /* LimiterBreakerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC83532E6DDA87009346D4 /* LimiterBreakerDemo.swift */; };
+		1FEC836C2E6DDA87009346D4 /* PinningDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC83582E6DDA87009346D4 /* PinningDemo.swift */; };
+		1FEC836D2E6DDA87009346D4 /* TokenStoreDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC835A2E6DDA87009346D4 /* TokenStoreDemo.swift */; };
+		1FEC836E2E6DDA87009346D4 /* AuthRefreshDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC83462E6DDA87009346D4 /* AuthRefreshDemo.swift */; };
+		1FEC836F2E6DDA87009346D4 /* TelemetryDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC834D2E6DDA87009346D4 /* TelemetryDemo.swift */; };
+		1FEC83702E6DDA87009346D4 /* CacheDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC83412E6DDA87009346D4 /* CacheDemo.swift */; };
+		1FEC83712E6DDA87009346D4 /* ParamsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC83482E6DDA87009346D4 /* ParamsDemo.swift */; };
+		1FEC83722E6DDA87009346D4 /* RetryCoalesceDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC83542E6DDA87009346D4 /* RetryCoalesceDemo.swift */; };
+		78C5300D95566BF7B4D7A2C3 /* Pods_LWNetworkDemoPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674B0E8E48FECC3B17A17B78 /* Pods_LWNetworkDemoPods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		069F0ADEBD3005BED78DCCC7 /* Pods-LWNetworkDemoPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWNetworkDemoPods.debug.xcconfig"; path = "Target Support Files/Pods-LWNetworkDemoPods/Pods-LWNetworkDemoPods.debug.xcconfig"; sourceTree = "<group>"; };
+		1FEC833E2E6DDA87009346D4 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		1FEC833F2E6DDA87009346D4 /* BackgroundTransferDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTransferDemo.swift; sourceTree = "<group>"; };
+		1FEC83412E6DDA87009346D4 /* CacheDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheDemo.swift; sourceTree = "<group>"; };
+		1FEC83432E6DDA87009346D4 /* ContractDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractDemo.swift; sourceTree = "<group>"; };
+		1FEC83452E6DDA87009346D4 /* DemoHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoHomeView.swift; sourceTree = "<group>"; };
+		1FEC83462E6DDA87009346D4 /* AuthRefreshDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRefreshDemo.swift; sourceTree = "<group>"; };
+		1FEC83472E6DDA87009346D4 /* DownloadETagDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadETagDemo.swift; sourceTree = "<group>"; };
+		1FEC83482E6DDA87009346D4 /* ParamsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamsDemo.swift; sourceTree = "<group>"; };
+		1FEC834A2E6DDA87009346D4 /* LWDemoURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWDemoURLProtocol.swift; sourceTree = "<group>"; };
+		1FEC834B2E6DDA87009346D4 /* LWDemoURLProtocolState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWDemoURLProtocolState.swift; sourceTree = "<group>"; };
+		1FEC834C2E6DDA87009346D4 /* LWStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWStyles.swift; sourceTree = "<group>"; };
+		1FEC834D2E6DDA87009346D4 /* TelemetryDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryDemo.swift; sourceTree = "<group>"; };
+		1FEC834F2E6DDA87009346D4 /* OfflineQueueDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineQueueDemo.swift; sourceTree = "<group>"; };
+		1FEC83512E6DDA87009346D4 /* ReachabilityDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityDemo.swift; sourceTree = "<group>"; };
+		1FEC83532E6DDA87009346D4 /* LimiterBreakerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimiterBreakerDemo.swift; sourceTree = "<group>"; };
+		1FEC83542E6DDA87009346D4 /* RetryCoalesceDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryCoalesceDemo.swift; sourceTree = "<group>"; };
+		1FEC83562E6DDA87009346D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEC83582E6DDA87009346D4 /* PinningDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinningDemo.swift; sourceTree = "<group>"; };
+		1FEC835A2E6DDA87009346D4 /* TokenStoreDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStoreDemo.swift; sourceTree = "<group>"; };
+		1FEC835C2E6DDA87009346D4 /* SSEDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSEDemo.swift; sourceTree = "<group>"; };
+		1FEC835D2E6DDA87009346D4 /* WebSocketDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketDemo.swift; sourceTree = "<group>"; };
+		674B0E8E48FECC3B17A17B78 /* Pods_LWNetworkDemoPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWNetworkDemoPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC143336F4818754F47368E /* Pods-LWNetworkDemoPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWNetworkDemoPods.release.xcconfig"; path = "Target Support Files/Pods-LWNetworkDemoPods/Pods-LWNetworkDemoPods.release.xcconfig"; sourceTree = "<group>"; };
+		8E3B670269404021A47D74E5 /* LWNetworkDemoPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = LWNetworkDemoPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7035DEF772A24A0C8C206C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C5300D95566BF7B4D7A2C3 /* Pods_LWNetworkDemoPods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC0E4DE7679422EBE1B83B2 = {
+			isa = PBXGroup;
+			children = (
+				1FEC833E2E6DDA87009346D4 /* App.swift */,
+				1FEC83402E6DDA87009346D4 /* Background */,
+				1FEC83422E6DDA87009346D4 /* Cache */,
+				1FEC83442E6DDA87009346D4 /* Contract */,
+				1FEC83452E6DDA87009346D4 /* DemoHomeView.swift */,
+				1FEC83492E6DDA87009346D4 /* HTTP */,
+				1FEC834A2E6DDA87009346D4 /* LWDemoURLProtocol.swift */,
+				1FEC834B2E6DDA87009346D4 /* LWDemoURLProtocolState.swift */,
+				1FEC834C2E6DDA87009346D4 /* LWStyles.swift */,
+				1FEC834E2E6DDA87009346D4 /* Observability */,
+				1FEC83502E6DDA87009346D4 /* Offline */,
+				1FEC83522E6DDA87009346D4 /* Reachability */,
+				1FEC83552E6DDA87009346D4 /* Reliability */,
+				1FEC83572E6DDA87009346D4 /* Resources */,
+				1FEC83592E6DDA87009346D4 /* Security */,
+				1FEC835B2E6DDA87009346D4 /* Session */,
+				1FEC835E2E6DDA87009346D4 /* Streaming */,
+				E80EC4CE0AB74C12ADD6F72F /* Products */,
+				94F046521581621468CF5C0E /* Pods */,
+				A8277A51EDC062FE4C04BD88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1FEC83402E6DDA87009346D4 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC833F2E6DDA87009346D4 /* BackgroundTransferDemo.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		1FEC83422E6DDA87009346D4 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC83412E6DDA87009346D4 /* CacheDemo.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		1FEC83442E6DDA87009346D4 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC83432E6DDA87009346D4 /* ContractDemo.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		1FEC83492E6DDA87009346D4 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC83462E6DDA87009346D4 /* AuthRefreshDemo.swift */,
+				1FEC83472E6DDA87009346D4 /* DownloadETagDemo.swift */,
+				1FEC83482E6DDA87009346D4 /* ParamsDemo.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		1FEC834E2E6DDA87009346D4 /* Observability */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC834D2E6DDA87009346D4 /* TelemetryDemo.swift */,
+			);
+			path = Observability;
+			sourceTree = "<group>";
+		};
+		1FEC83502E6DDA87009346D4 /* Offline */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC834F2E6DDA87009346D4 /* OfflineQueueDemo.swift */,
+			);
+			path = Offline;
+			sourceTree = "<group>";
+		};
+		1FEC83522E6DDA87009346D4 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC83512E6DDA87009346D4 /* ReachabilityDemo.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		1FEC83552E6DDA87009346D4 /* Reliability */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC83532E6DDA87009346D4 /* LimiterBreakerDemo.swift */,
+				1FEC83542E6DDA87009346D4 /* RetryCoalesceDemo.swift */,
+			);
+			path = Reliability;
+			sourceTree = "<group>";
+		};
+		1FEC83572E6DDA87009346D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC83562E6DDA87009346D4 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1FEC83592E6DDA87009346D4 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC83582E6DDA87009346D4 /* PinningDemo.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		1FEC835B2E6DDA87009346D4 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC835A2E6DDA87009346D4 /* TokenStoreDemo.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		1FEC835E2E6DDA87009346D4 /* Streaming */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC835C2E6DDA87009346D4 /* SSEDemo.swift */,
+				1FEC835D2E6DDA87009346D4 /* WebSocketDemo.swift */,
+			);
+			path = Streaming;
+			sourceTree = "<group>";
+		};
+		94F046521581621468CF5C0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				069F0ADEBD3005BED78DCCC7 /* Pods-LWNetworkDemoPods.debug.xcconfig */,
+				6CC143336F4818754F47368E /* Pods-LWNetworkDemoPods.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8277A51EDC062FE4C04BD88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				674B0E8E48FECC3B17A17B78 /* Pods_LWNetworkDemoPods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E80EC4CE0AB74C12ADD6F72F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E3B670269404021A47D74E5 /* LWNetworkDemoPods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0B96DB7BCA846C18011664F /* LWNetworkDemoPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3548B5E755264DE68AB03AFF /* Build configuration list for PBXNativeTarget "LWNetworkDemoPods" */;
+			buildPhases = (
+				6212290C78E110B68E4DB3FB /* [CP] Check Pods Manifest.lock */,
+				133D10FE1E1E4163BC017827 /* Sources */,
+				7035DEF772A24A0C8C206C54 /* Frameworks */,
+				6DE048C80B8B4B9099F1B99D /* Resources */,
+				70943A70FD8FBB92E2309918 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWNetworkDemoPods;
+			productName = LWNetworkDemoPods;
+			productReference = 8E3B670269404021A47D74E5 /* LWNetworkDemoPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43E3991AC3044C7DB62FCFF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 97F6839DD4C846CFB3194B84 /* Build configuration list for PBXProject "LWNetworkDemoPods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0BC0E4DE7679422EBE1B83B2;
+			productRefGroup = E80EC4CE0AB74C12ADD6F72F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0B96DB7BCA846C18011664F /* LWNetworkDemoPods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DE048C80B8B4B9099F1B99D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6212290C78E110B68E4DB3FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LWNetworkDemoPods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70943A70FD8FBB92E2309918 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LWNetworkDemoPods/Pods-LWNetworkDemoPods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LWNetworkDemoPods/Pods-LWNetworkDemoPods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LWNetworkDemoPods/Pods-LWNetworkDemoPods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133D10FE1E1E4163BC017827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEC835F2E6DDA87009346D4 /* DemoHomeView.swift in Sources */,
+				1FEC83602E6DDA87009346D4 /* LWDemoURLProtocol.swift in Sources */,
+				1FEC83612E6DDA87009346D4 /* OfflineQueueDemo.swift in Sources */,
+				1FEC83622E6DDA87009346D4 /* DownloadETagDemo.swift in Sources */,
+				1FEC83632E6DDA87009346D4 /* LWStyles.swift in Sources */,
+				1FEC83642E6DDA87009346D4 /* SSEDemo.swift in Sources */,
+				1FEC83652E6DDA87009346D4 /* ReachabilityDemo.swift in Sources */,
+				1FEC83662E6DDA87009346D4 /* BackgroundTransferDemo.swift in Sources */,
+				1FEC83672E6DDA87009346D4 /* WebSocketDemo.swift in Sources */,
+				1FEC83682E6DDA87009346D4 /* LWDemoURLProtocolState.swift in Sources */,
+				1FEC83692E6DDA87009346D4 /* App.swift in Sources */,
+				1FEC836A2E6DDA87009346D4 /* ContractDemo.swift in Sources */,
+				1FEC836B2E6DDA87009346D4 /* LimiterBreakerDemo.swift in Sources */,
+				1FEC836C2E6DDA87009346D4 /* PinningDemo.swift in Sources */,
+				1FEC836D2E6DDA87009346D4 /* TokenStoreDemo.swift in Sources */,
+				1FEC836E2E6DDA87009346D4 /* AuthRefreshDemo.swift in Sources */,
+				1FEC836F2E6DDA87009346D4 /* TelemetryDemo.swift in Sources */,
+				1FEC83702E6DDA87009346D4 /* CacheDemo.swift in Sources */,
+				1FEC83712E6DDA87009346D4 /* ParamsDemo.swift in Sources */,
+				1FEC83722E6DDA87009346D4 /* RetryCoalesceDemo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9969AE1F504049908CD00B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069F0ADEBD3005BED78DCCC7 /* Pods-LWNetworkDemoPods.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LWNetworkDemoPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9AD11005A5274416AAE1BD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Release;
+		};
+		C34AA01AC4E441C1BB215F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Debug;
+		};
+		C8912A5D3AC04E6AA682472D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC143336F4818754F47368E /* Pods-LWNetworkDemoPods.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LWNetworkDemoPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3548B5E755264DE68AB03AFF /* Build configuration list for PBXNativeTarget "LWNetworkDemoPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9969AE1F504049908CD00B7C /* Debug */,
+				C8912A5D3AC04E6AA682472D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F6839DD4C846CFB3194B84 /* Build configuration list for PBXProject "LWNetworkDemoPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34AA01AC4E441C1BB215F7A /* Debug */,
+				9AD11005A5274416AAE1BD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43E3991AC3044C7DB62FCFF8 /* Project object */;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "LWNetworkKit",
+  "version": "0.2.0",
+  "summary": "Networking with middleware, retry, coalescing, ETag, pinning, BG transfer, SSE, offline queue.",
+  "description": "iOS 14+, Alamofire-based pragmatic networking toolkit. CocoaPods example mirrors PRO12 demo features.",
+  "homepage": "https://example.invalid/lwnetworkkit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LW": "dev@example.com"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": [
+    "5.7",
+    "5.8",
+    "5.9"
+  ],
+  "source": {
+    "git": "https://example.invalid/lwnetworkkit.git",
+    "tag": "0.2.0"
+  },
+  "source_files": "Sources/LWNetworkKit/**/*.{swift}",
+  "frameworks": [
+    "Security",
+    "Network"
+  ],
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.8"
+    ]
+  },
+  "swift_version": "5.9"
+}
