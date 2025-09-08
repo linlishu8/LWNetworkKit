@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name          = 'LWNetworkKit'
-  s.version       = '1.0.0'  # ← 首发版本，和 Git tag 必须一致
+  s.version       = '1.0.1'  # ← 首发版本，和 Git tag 必须一致
   s.summary       = 'Lightweight network layer built on Alamofire.'
   s.description   = <<-DESC
 A clean, composable networking kit with request building, interceptors, monitors, retry, coalescing, ETag, pinning, background transfer, SSE, and offline queue.
@@ -15,7 +15,7 @@ A clean, composable networking kit with request building, interceptors, monitors
   s.source        = { :git => 'https://github.com/linlishu8/LWNetworkKit.git', :tag => s.version.to_s }
 
   # 平台 & Swift 版本
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '14.0'
   s.swift_versions = ['5.8', '5.9', '5.10']
 
   # 源码路径
